@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- animate css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/781ea11ce5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header  -->
+    <div class="header">
+        <nav id="navBar">
+            <img src="https://1000logos.net/wp-content/uploads/2017/08/Airbnb-Logo.png" alt="logo" class="logo animate__animated animate__zoomIn" width="200px" height="90px">
+            <ul class="nav-links animate__animated animate__fadeInUp">
+                <li><a href="#popular" class="nav-link">Popular</a></li>
+                <li><a href="#trendings" class="nav-link">International travel</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+            </ul>
+            <!-- <a href="#" class="register-btn animate__animated animate__fadeInUp">Sign-Up</a> -->
+            <button class="register-btn animate__animated animate__fadeInUp">
+                <span class="button-content">Sign-Up</span>
+              </button> 
+            <i class="fas fa-bars" onclick="toggleBtn()"></i>             
+        </nav>
+        <div class="container">
+            <h1 class="animate__animated animate__slideInRight">Your Dream Stay Awaits</h1>
+            <div class="search-bar">
+                <form action="">
+                    <div class="location-input">
+                        <label for="">Where</label>
+                        <input type="text" placeholder="Search destinations">
+                    </div>
+                    <div>
+                        <label for="">Check in</label>
+                        <input type="text" placeholder="Add Dates">
+                    </div>
+                    <div>
+                        <label for="">Check out</label>
+                        <input type="text" placeholder="Add Dates">
+                    </div>
+                    <div>
+                        <label for="">Who</label>
+                        <input type="text" placeholder="Add quests">
+                    </div>
+                    <button type="submit"><img src="images/search.png"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="popular">
+        <h2 class="sub-title animate__animated animate__slideInLeft">Amazing Views</h2>
+        <div class="exclusives">
+            <div>
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-507741036516104287/original/a89b73fb-0623-40d0-abf2-ed6d5cbc4d5f.jpeg?im_w=720&im_format=avif" alt="">
+                <span>
+                    <h3>Munnar, Kerala</h3>
+                    <p>Mountain view</p>
+                    <p><b>₹3,500</b> night</p>
+                </span>
+            </div>
+            <div>
+                <img src="https://a0.muscache.com/im/pictures/49cdc654-db79-4c25-b5f6-2982729d1be6.jpg?im_w=720&im_format=avif" alt="">
+                <span>
+                    <h3>Lonavala, Maharastra</h3>
+                    <p>Mountain and lake view</p>
+                    <p><b>₹3,500</b> night</p>
+                </span>
+            </div>
+            <div>
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-686110594962640933/original/b80f2941-7db3-4c4a-b9fe-50b7e7636600.jpeg?im_w=720&im_format=avif" alt="">
+                <span>
+                    <h3>Udaipur, Rajasthan</h3>
+                    <p>Garden View</p>
+                    <p><b>₹9,000</b> night</p>
+                </span>
+            </div>
+            <div>
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1078707946644872052/original/234bc774-bc32-46db-8de7-159a3a266599.jpeg?im_w=720&im_format=avif" alt="">
+                <span>
+                    <h3>Ooty, Tamilnadu</h3>
+                    <p>Mountain View</p>
+                    <p><b>₹6,000</b> night</p>
+                </span>
+            </div>
+            <div>
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-983628068535189241/original/6fb13419-22cb-4378-bacc-22fa484869e2.jpeg?im_w=720&im_format=avif" alt="">
+                <span>
+                    <h3>Anjuna Beach, Goa</h3>
+                    <p>Mountain View</p>
+                    <p><b>₹7,300</b> night</p>
+                </span>
+            </div>
+        </div>
+        <!-- trending places -->
+        <h2 class="sub-title" id="trendings">Trending Places</h2>
+        <div class="trending">
+            <div>
+                <img src="images/new-york.png" alt="">
+                <h3>Statue of Liberty, New York</h3>
+            </div>
+            <div>
+                <img src="images/dubai.png" alt="">
+                <h3>Burj Al Arab, Dubai</h3>
+            </div>
+            <div>
+                <img src="images/paris.png" alt="">
+                <h3>Eiffel Tower, Paris</h3>
+            </div>
+            <div>
+                <img src="images/new-delhi.png" alt="">
+                <h3>Lotus Temple, New-delhi</h3>
+            </div>
+        </div>
+        
+        <div class="cta">
+            <h3>It’s easy to list<br>Your home on Airbnb</h3>
+            <p>Turn Your Home into Extra Income</p>
+            <a href="#" class="cta-btn">Apply Now</a>
+        </div>
+    
+        <h2 class="sub-title" id="blog">Travellers Stories </h2>
+        <div class="stories">
+            <div>
+                <img src="https://a0.muscache.com/im/pictures/341d7d32-ac65-49c1-a828-95ce4691f78d.jpg?im_w=720&im_format=avif" alt="">
+                <p>Popular european countries with a budget of just $10,000</p>
+            </div>
+            <div>
+                <img src="https://imgs.search.brave.com/UijMZAfWavt3S0dr0SvV-ZFKN0wxtdva7uw2RpCWFdU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c3BhaW4uaW5mby9l/eHBvcnQvc2l0ZXMv/c2VndHVyLy5jb250/ZW50L2ltYWdlbmVz/L2NhYmVjZXJhLWNv/bXBsZXRhL2Nhc3Rp/bGxvLXNhbnRhLWJh/cmJhcmEtYWxpY2Fu/dGUtczY4OTg1MzU1/Ni5qcGc" alt="">
+                <p>Spain is a country that has its own unique rhythm.</p>
+            </div>
+            <div>
+                <img src="https://imgs.search.brave.com/KmBl8VrcvzNMVEawU0SQxrWrhv0s_yln73tVAI8AECk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/Ym9va2F0cmVra2lu/Zy5jb20vZGF0YS9p/bWFnZXMvMjAyNC8w/Ni96ZXJtYXR0Lndl/YnA" alt="">
+                <p>It’s not the mountain we conquer, but ourselves.</p>
+            </div>
+        </div>
+        <a href="#" class="start-btn">Explore More</a>
+
+        <div class="about-msg">
+            <h2>About Airbnb</h2>
+            <p>American online platform for rental accommodations.Thirteen years ago, Joe & Nate created a company that was viewed at the time as an unlikely idea to work. Airbnb has always been a little different, 
+                and as we take our company public, we feel compelled to tell you a little more about what makes Airbnb.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium placeat labore totam, obcaecati impedit ullam? 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing.
+            </p>
+        </div>
+        
+        <div class="footer">
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.x.com/"><i class="fa-brands fa-x-twitter"></i></i></a>
+            <hr>
+            <p>copyright &#169 <b>2025</b> Designed by <span>Harshal</span></p>
+        </div>
+    </div>
+
+    <script>
+        var navBar = document.getElementById("navBar");
+        function toggleBtn() {
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+</body>
+</html>
